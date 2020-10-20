@@ -7,7 +7,7 @@ Program: set_membership
 
 
 def in_set(some_set, some_value):
-    pass
+    return some_value in some_set
 
 
 if __name__ == '__main__':
