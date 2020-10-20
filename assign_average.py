@@ -13,7 +13,7 @@ def switch_average(entry):
                'F': 'You entered an F!'
                }
 
-    result = my_dict.get(entry)
+    result = my_dict.get(entry, "This is not a valid Grade")
     return result
 
 
