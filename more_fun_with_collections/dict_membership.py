@@ -7,7 +7,7 @@ Program: dict_membership.py
 
 
 def in_dict(some_dict, some_key):
-    pass
+    return some_key in some_dict
 
 
 if __name__ == '__main__':
